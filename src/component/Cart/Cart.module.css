@@ -1,0 +1,6 @@
+.box {
+  background-color: var(--color-cartbg);
+  padding: 0.5rem;
+  padding-bottom: 0.3rem;
+  box-shadow: 1px 1px var(--color-text);
+}

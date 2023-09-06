@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 0.8rem 2rem;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subWrapper {
+  display: flex;
+
+  justify-content: flex-end;
+  gap: 1rem;
+
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .product {
+    display: none;
+  }
+}
